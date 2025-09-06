@@ -748,7 +748,6 @@ if(NOT (WITH_CUDA OR WITH_HIP))
   else()
     add_library(${PROJECT_NAME} ${SOURCES})
   endif()
-  )
 endif()
 
 include(GenerateExportHeader)
